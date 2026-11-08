@@ -8,7 +8,7 @@ from sentinel_scanner import analyze, audit_url, audit_text, detect_homoglyphs, 
 
 class TestR0cket1(unittest.TestCase):
     def test_clean_url(self):
-        res = analyze("https://github.com/milcham")
+        res = analyze("https://github.com/R0ckett")
         self.assertEqual(res["verdict"], "SAIN")
         self.assertLess(res["score"], 2.0)
 

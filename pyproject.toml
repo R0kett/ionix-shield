@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "r0cket-1"
 version = "1.0.0"
 authors = [
-  { name="Milcham", email="milchamus@gmail.com" },
+  { name="R0ckett", email="milchamus@gmail.com" },
 ]
 description = "Autonomous Zero-Knowledge Edge AI Cyber-Sentinel"
 readme = "README.md"
