@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "r0cket-1"
+version = "1.0.0"
+authors = [
+  { name="Milcham", email="milchamus@gmail.com" },
+]
+description = "Autonomous Zero-Knowledge Edge AI Cyber-Sentinel"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Topic :: Internet :: WWW/HTTP",
+]
+keywords = ["security", "cybersecurity", "phishing", "homoglyphs", "privacy", "edge-ai"]
+
+[project.scripts]
+r0cket-1 = "sentinel_scanner:main"
