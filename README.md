@@ -40,7 +40,7 @@ Aujourd’hui, la quasi-totalité des solutions de sécurité (Safe Browsing, an
 Aucune dépendance externe lourde n'est requise. R0cket-1 utilise la bibliothèque standard Python pour une vitesse d'exécution maximale.
 
 ```bash
-git clone https://github.com/R0ckett/R0cket-1.git
+git clone https://github.com/R0kett/R0ckett-1.git
 cd R0cket-1
 ```
 
